@@ -1,0 +1,45 @@
+body
+{
+    background-image: url(../Jasper/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
+    
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200pxl;
+    padding-left: 100px;
+    padding-right: 100px;
+  
+    
+    
+}
+
+
+
+.main_part 
+{
+    color:lightblue;
+    
+}
+
+a:hover {color:skyblue;}
+
+#nested2
+{
+    width: 100%;
+    height: 60%;
+    background: lightblue;
+    border: 3px;
+    border-style:solid;
+    border-color:black;
+    padding-left:10px;
+}
+
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#nested3
+{
+
+    padding-left:250px;
+}
