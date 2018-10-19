@@ -44,53 +44,6 @@ a:hover {
     color: black;
 }
 
-.column {
-    float: center;
-    width: 80%;
-    padding: 15px;
-    margin-left: 140px;
-    background: lightblue;
-
-}
-
-@media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-    }
-}
-
-.item1 {
-    background-color: lightblue;
-    align-items: flex-start;
-    width: 840px;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    border-bottom: none;
-    padding-left: 10px;
-    padding-right: 4px;
-    margin-left: 250px;
-
-}
-
-.item2 {
-    background-color: lightblue;
-    align-items: flex-start;
-    width: 840px;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-left: 250px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 
 .footer {
     height: 20px;
@@ -110,6 +63,7 @@ a:hover {
     display: inline-block;
     font-size: 14px;
 }
+
 
 .w3-myfont {
     font-family: "Comic Sans MS", cursive, sans-serif;

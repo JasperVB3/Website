@@ -1,17 +1,97 @@
+.header
+{
+    background-color: lightblue;
+    text-align: left;
+    padding: 20px;
+} 
+    
+.main_part 
+{
+    color:dodgerblue;
+    
+}
+
 body
 {
     background-image: url(../Jasper/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
-}
-
-
-
-.main_part 
-{
-    color:lightblue;
-    
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200pxl;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 a:hover {color:skyblue;}
 
 
+.topnav 
+{
+    overflow: hidden;
+    background-color:dodgerblue;
+    padding:padding;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+.column {
+    float: center;
+    width: 100%;
+    padding: 15px;
+    margin-left:auto;
+    background: lightblue;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer {
+    height: 20px;
+    padding: 0px;
+    height: 70px;
+    text-align: center;
+    background:dodgerblue;
+}
+
+.button {
+    background-color: dodgerblue; /* Green */
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+s
+
+
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
     
