@@ -1,0 +1,214 @@
+#pageIntroduction {
+    background: dimgrey;
+}
+
+#pageProjects {
+    background: dimgrey;
+}
+
+#pageContact {
+    background: dimgrey;
+}
+
+ul {
+    width: fit-content;
+    margin: left;
+    list-style: none;
+}
+
+section {
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+section-2{
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+section-3
+{
+    width: auto;
+    height: auto;
+    float: left;
+}
+
+.header {
+    background-color: dimgrey;
+    text-align: left;
+    padding: 0px;
+    
+}
+
+.main_part {
+    color: dimgrey;
+
+}
+
+body {
+    background: dimgrey;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200pxl;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background: black;
+    padding: padding;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: darkorange;
+}
+
+.column {
+    float: center;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    background: grey;
+
+}
+
+.column-2 {
+    float: center;
+    height: 300px;
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    background: grey;
+
+
+}
+
+.column-3 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    padding-left: center;
+    padding-right: center;
+    background: grey;
+    margin: auto;
+    height: 650px;
+
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column-3 {
+        width: 100%;
+    }
+}
+
+.fa {
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    font-size: 70px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 110px;
+}
+
+.fa-youtube {
+    background: red;
+    color: white;
+    width: 110px;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+    width: 110px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: darkorange;
+}
+
+.topnav input[type=text] {
+    float: center;
+    padding: 15px;
+    border: none;
+    margin: auto;
+    font-size: auto;
+    width: 1200px;
+    color: darkorange;
+}
+
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.footer {
+    height: 20px;
+    padding: 0px;
+    height: 100px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover {
+    opacity: 0.9;
+    color: darkorange;
+}
+
+.w3-myfont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}

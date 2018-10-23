@@ -1,22 +1,23 @@
 .header {
-    background-color: lightblue;
+    background-color: dimgrey;
     text-align: left;
-    padding: 20px;
+    padding: 0px;
 }
 
 .main_part {
-    color: dodgerblue;
+    color: dimgrey;
 
 }
 
 body {
-    background-image: url(../Jasper/Alien_Ink_2560X1600_Abstract_Background_1.jpg);
+    background: dimgrey;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 200pxl;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
 }
 
 a:hover {
@@ -26,7 +27,7 @@ a:hover {
 
 .topnav {
     overflow: hidden;
-    background-color: dodgerblue;
+    background-color: black;
     padding: padding;
 }
 
@@ -41,16 +42,59 @@ a:hover {
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: darkorange;
 }
 
 .column {
     float: center;
     width: 80%;
     padding: 15px;
-    margin-left: 140px;
-    background: lightblue;
+    margin: auto;
+    background: grey;
 
+}
+
+.fa {
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+    font-size: 70px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 110px;
+}
+
+.fa-youtube {
+    background: red;
+    color: white;
+    width: 110px;
+}
+.fa-instagram{
+    background: black;
+    color:white;
+    width: 110px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: darkorange;
+}
+
+.topnav input[type=text] {
+    float: center;
+    padding: 15px;
+    border: none;
+    margin: auto;
+    font-size: auto;
+    width: 1200px;
+    color: darkorange;
 }
 
 @media screen and (max-width:600px) {
@@ -59,31 +103,6 @@ a:hover {
     }
 }
 
-.item1 {
-    background-color: lightblue;
-    align-items: flex-start;
-    width: 840px;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    border-bottom: none;
-    padding-left: 10px;
-    padding-right: 4px;
-    margin-left: 250px;
-
-}
-
-.item2 {
-    background-color: lightblue;
-    align-items: flex-start;
-    width: 840px;
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-left: 250px;
-}
 
 .center {
     display: block;
@@ -97,11 +116,13 @@ a:hover {
     padding: 0px;
     height: 70px;
     text-align: center;
-    background: dodgerblue;
+    background: black;
+    color:white;
 }
 
 .button {
-    background-color: dodgerblue; /* Green */
+    background-color: black;
+    /* Green */
     border: none;
     color: white;
     padding: 14px 32px;
@@ -111,6 +132,11 @@ a:hover {
     font-size: 14px;
 }
 
+.button:hover{
+     opacity: 0.9;
+    color: darkorange;
+}
 .w3-myfont {
     font-family: "Comic Sans MS", cursive, sans-serif;
+    
 }
